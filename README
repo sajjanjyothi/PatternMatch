@@ -1,0 +1,12 @@
+Please execute tests as
+go test
+Implemented MatchString in StringFinder struct as
+type StringFinder struct {
+	haystack string
+	needle   string
+}
+
+Here I haven't used any algorithms readily available such as Boyer–Moore string search algorithm/Knuth–Morris–Pratt algorithm/
+Rabin–Karp string search algorithm/Levenshtein distance
+
+Implemented this algorithms specific to football club names
